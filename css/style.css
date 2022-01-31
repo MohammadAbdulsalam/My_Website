@@ -191,32 +191,62 @@ section .container {
     /* border-right: 2px solid #979A9A; */
     overflow: hidden;
     white-space: nowrap;
-    animation: writing-mach 2s  both;
+    animation: writing-mach 2s 1s both;
+}
+@media (max-width: 767px) {
+    .landing h2 {
+        color: #fff;
+        font-size: 1.3em;
+        font-weight: 400;
+        animation: none;
+        width: 375px;
+    }
 }
 .landing h2 span {
     display: inline-block;
     margin-top: 10px;
     color: purple;
-    font-size: 3em;
-    font-weight: 600;
+    font-size: 2.5em;
+    font-weight: 800;
     width: 725px;
     /* border-right: 2px solid #979A9A; */
     overflow: hidden;
     white-space: nowrap;
-    animation: writing-mach 2s 1s both;
+    animation: writing-mach 2s 2s both;
+}
+@media (max-width: 767px) {
+    .landing h2 span {
+        display: inline-block;
+        margin-top: 10px;
+        width: 375px;
+        color: purple;
+        animation: none;
+        font-size: 1.5em;
+    }
 }
 .landing h3 {
     color: #fff;
     font-size: 2em;
-    font-weight: 700;
+    font-weight: 600;
     letter-spacing: 1px;
     margin-top: 10px;
     margin-bottom: 30px;
     width: 500px;
-    /* border-right: 2px solid #979A9A; */
     overflow: hidden;
     white-space: nowrap;
     animation: writing-mach 2s 3s both;
+}
+@media (max-width: 767px) {
+    .landing h3 {
+        color: #fff;
+        font-size: 1.2em;
+        font-weight: 300;
+        letter-spacing: 1px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        animation: none;
+        width: 375px;
+    }
 }
 .landing .main-btn {
     color: #fff;
