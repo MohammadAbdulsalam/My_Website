@@ -420,7 +420,8 @@ section .container {
 }
 .projects .content .box .info .category span {
     color: rgb(243, 0, 243);
-    font-size: large;
+    font-size: 14px;
+    font-weight: bold;
 }
 .projects .content .box .info .title {
     display: flex;
